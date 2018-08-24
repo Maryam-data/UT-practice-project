@@ -115,6 +115,16 @@ plt.show()
 fig.savefig('Pyber ride sharing data 2016.png')
 
 
+# In[6]:
+
+
+print("According to the pyber ride sharing data 2016 Analysis:")
+print("----------------------------------------------")
+print("1: Total number of rides per city in Uraban type is more than Rural and Suburban ")
+print("2: Rural has the minimum number of rides and minumm number of drivers")
+print("3: Avarage fares in Rural type of city is almost more than other types.")
+
+
 # ## Total Fares by City Type
 
 # In[9]:
@@ -151,6 +161,14 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 fig.savefig('% Total Fares by City Type.png')
 
 
+# In[7]:
+
+
+print(" According to the Total Fares by City Type Analysis :")
+print("----------------------------------------------")
+print("1: Its showes Urban cities have the highest total of fares,its because, Total number of rides per city in Uraban type is more than others.")
+
+
 # ## Total Rides by City Type
 
 # In[11]:
@@ -183,6 +201,14 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 
 
 fig.savefig('% Total Rides by City Type.png')
+
+
+# In[8]:
+
+
+print("  According to the Total Rides by City Type Analysis :")
+print("----------------------------------------------")
+print("1: Urban city Type with 68.4%  has the most trips.")
 
 
 # ### Total driver by city type 
@@ -218,6 +244,14 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 
 
 fig.savefig(' %Total driver by city type .png')
+
+
+# In[10]:
+
+
+print("  according to the Total driver by City Type Analysis :")
+print("----------------------------------------------")
+print("1: Urban city Type with 80.9%  has the most Drivers.")
 
 
 # ## plotting again with just city dataframe 
@@ -258,4 +292,10 @@ plt.pie(
 
 
 fig.savefig(' %Total driver by city type2 .png')
+
+
+# In[11]:
+
+
+print(" in short: Urban city Type has the most Drivers and most number of rides. ")
 
