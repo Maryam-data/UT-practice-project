@@ -189,11 +189,12 @@ pc=np.corrcoef(posetive['lat'],posetive['Max Temp'])[0][1]
 nc=np.corrcoef(negative['lat'],negative['Max Temp'])[0][1]
 
 
-# In[14]:
+# In[21]:
 
 
 print("According to City latitude vs Temperature Analysis:")
 print("----------------------------------------------")
+print(f"There is polynomial correlation betweeen city latitude vs Temperature ")
 print(f"There is a strong correlation between city latitude in range ({min_lat}: {change_point}) and  max Temperature for city")
 print(f"strong correlation between  City latitude vs Temperature is {pc}." )
 print(f"There is a strnog correlation between city latitude in range ({change_point}: {max_lat}) and  max Temperature for city")
